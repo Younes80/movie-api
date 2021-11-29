@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+register:
+  path: /api/users
+  methods: ['POST']
+authentication_token:
+  path: /api/login
+  methods: ['POST']
+movies:
+  path: /api/movies
+  methods: ['GET']
+favorites:
+  path: /api/favorites
+  methods: ['POST']
