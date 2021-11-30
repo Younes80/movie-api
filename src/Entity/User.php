@@ -25,6 +25,7 @@ use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
         'get',
         'put',
         'patch',
+        'delete',
         'favorite' => [
             'method' => 'POST',
             'path' => '/posts/{id}/favorite',
